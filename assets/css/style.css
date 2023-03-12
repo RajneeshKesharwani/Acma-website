@@ -1,0 +1,156 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    font-family: 'Secular One', sans-serif;
+}
+.container>header>nav>ul{
+list-style-type: none;
+background: rgb(46, 46, 49);
+color: #fff;
+padding: 30px;
+text-align: right;  
+}
+.container>header>nav>ul>li{
+    display: inline-block;
+    padding-right: 90px;
+     
+}
+.container>header>nav>ul>li:hover{
+    transform: scale(1.1);
+    
+}
+.container>header>nav>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+.container>header>nav>ul>li>a:hover{
+    color: red;
+}
+.container>header>nav>ul>h1{
+    position: absolute;
+   top: 25px ;
+   font-size: 25px ;
+   
+}
+.container>header>nav>ul>li>a#home{
+    color: red;
+}
+.container>header>nav>ul>h1>b{
+    color: red;
+}
+.colorline{
+    background-color: red;
+    height: 10px ;
+}
+.banner{
+   background-image: url("../images/banner2.jpg");
+   height: 500px;
+   background-size: cover;
+   text-align: center;
+   opacity: 0.9;
+   
+}
+.banner>h1{
+ padding-top: 50px ;
+ font-size: 50px ;
+ color: #fff;
+ text-shadow:3px 3px 3px black;
+ 
+ 
+}
+.banner>p{
+padding: 25px ;
+font-size: 20px ;
+margin: 0px 150px 0px 150px ;
+color: #fff;
+text-shadow: 3px 3px 3px black;
+}
+.footer{
+   background-color:rgb(46, 46, 49);
+   height: 100px ; 
+}
+.aside{
+    text-align: right;
+    padding: 40px ;
+}
+.footer>.aside>button{
+     background-color: red;
+     color: #fff;  
+}
+.footer>h2{
+    position: absolute;
+    padding: 40px ;
+    color: #fff;
+
+}
+.container>.details{
+    /* border: 2px solid red; */
+    height: 400px ;
+    background-color: antiquewhite;
+    padding: 10px ;
+   
+}
+.container>.details>.card{
+   /* border: 2px solid red; */
+   height: 400px ;
+   text-align: center;
+   display: flex;
+}
+.container>.details>.card>.services{
+    /* border: 2px solid black; */
+    margin: 20px ;
+}
+.container>.details>.card>.services>img{
+    padding: 20px ;
+}
+.container>.details>.card>.services>h1{
+    padding: 20px ;
+    font-size: 30px;
+}
+footer{
+    background:rgb(14, 14, 45);
+    height: 50px ;
+    color: #fff; 
+    text-align: center;
+    padding-top: 30px ;
+    font-family:'Secular One', sans-serif;
+    font-size: 18px;  
+}
+.container>.details{
+    /* border: 2px solid red; */
+    height: 400px ;
+    background-color: antiquewhite;
+    padding: 10px ;
+   
+}
+.container>.details>.card{
+   /* border: 2px solid red; */
+   height: 400px ;
+   text-align: center;
+   display: flex;
+}
+.container>.details>.card>.services{
+    /* border: 2px solid black; */
+    margin: 20px ;
+}
+.container>.details>.card>.services>img{
+    padding: 20px ;
+}
+.container>.details>.card>.services>h1{
+    padding: 20px ;
+    font-size: 30px;
+}
+footer{
+    background:rgb(14, 14, 45);
+    height: 50px ;
+    color: #fff; 
+    text-align: center;
+    padding-top: 30px ;
+    font-family:'Secular One', sans-serif;
+    font-size: 18px; 
+    letter-spacing: 0.5mm; 
+}
+
